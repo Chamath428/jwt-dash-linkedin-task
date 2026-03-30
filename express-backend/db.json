@@ -1,68 +1,12 @@
 {
   "users": [
     {
-      "id": "1427dadb-99b9-4cbb-a5e5-1bb618d895cc",
+      "id": "24cb0fc7-02c1-45bb-8423-c3da1b78cbd4",
       "firstName": "Hello",
       "lastName": "Chamath",
       "email": "chamath33@gmail.com",
       "password": "Password1#",
-      "createdAt": "2026-03-30T19:02:34.317Z"
-    },
-    {
-      "id": "e03db099-41b3-4978-801e-99576ff0ba79",
-      "firstName": "Hello",
-      "lastName": "Chamath",
-      "email": "chamath33@gmail.com",
-      "password": "Password1#",
-      "createdAt": "2026-03-30T19:08:36.665Z"
-    },
-    {
-      "id": "8d455811-c12c-4c04-85f1-8a4971d621a8",
-      "firstName": "Hello",
-      "lastName": "Chamath",
-      "email": "chamath33@gmail.com",
-      "password": "Password1#",
-      "createdAt": "2026-03-30T19:11:46.020Z"
-    },
-    {
-      "id": "198946c4-b8a9-4d1d-a256-445dacc1167d",
-      "firstName": "Hello",
-      "lastName": "Chamath",
-      "email": "chamath33@gmail.com",
-      "password": "Password1#",
-      "createdAt": "2026-03-30T19:11:52.135Z"
-    },
-    {
-      "id": "fdce0318-be9f-4f7c-bd2a-096fc7691f4d",
-      "firstName": "Hello",
-      "lastName": "Chamath",
-      "email": "chamath33@gmail.com",
-      "password": "Password1#",
-      "createdAt": "2026-03-30T19:11:53.014Z"
-    },
-    {
-      "id": "3bc30662-e4cb-4dc2-80e6-ab0be2e77ddd",
-      "firstName": "Hello",
-      "lastName": "Chamath",
-      "email": "chamath33@gmail.com",
-      "password": "Password1#",
-      "createdAt": "2026-03-30T19:11:53.465Z"
-    },
-    {
-      "id": "1c8400d3-37e3-416f-a2c4-e61fbfb65aa7",
-      "firstName": "Hello",
-      "lastName": "Chamath",
-      "email": "chamath33@gmail.com",
-      "password": "Password1#",
-      "createdAt": "2026-03-30T19:12:12.683Z"
-    },
-    {
-      "id": "610a44cb-ec95-4391-a399-c2e4798487f0",
-      "firstName": "Hello",
-      "lastName": "Chamath",
-      "email": "chamath33@gmail.com",
-      "password": "Password1#",
-      "createdAt": "2026-03-30T19:15:36.203Z"
+      "createdAt": "2026-03-30T19:26:05.980Z"
     }
   ]
 }

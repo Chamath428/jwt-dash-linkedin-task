@@ -4,6 +4,7 @@ import { User } from "../models/user.model";
 import { SignupDto } from "./dto/signup.dto";
 import { AppError } from "../util/AppError";
 import { LoginDto } from "./dto/login.dto";
+import { signToken } from "../middleware/jwtHandler";
 
 export const signupService = async (signUpDto: SignupDto) => {
   try {
@@ -40,8 +41,9 @@ export const loginService = async (loginDto: LoginDto) => {
     if (!user?.password || user.password !== password) {
       throw new AppError("Invalid email or password", 401);
     }
+    const token = signToken({ id: user.id, email: user.email });
 
-    return user;
+    return { user, token };
   } catch (error) {
     console.log("Error during login:", error);
     throw new AppError(`Invalid Email or Password`, 500);
