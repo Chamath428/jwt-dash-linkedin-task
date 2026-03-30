@@ -1,0 +1,21 @@
+
+.auth-buttons-section {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  padding: 20px 40px;
+}
+
+.auth-button{
+  background: none;
+  border: 2px solid;
+  border-image: linear-gradient(135deg, #66e0e4, #cccccc) 1;
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 20px 40px;
+  text-decoration: none;
+}

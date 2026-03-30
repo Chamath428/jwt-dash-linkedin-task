@@ -1,12 +1,12 @@
 {
   "users": [
     {
-      "id": "24cb0fc7-02c1-45bb-8423-c3da1b78cbd4",
-      "firstName": "Hello",
-      "lastName": "Chamath",
-      "email": "chamath33@gmail.com",
+      "id": "cf9a951e-c49f-44ee-aa3e-507760e2ccaf",
+      "firstName": "Chamath Chinthana",
+      "lastName": "Peththawadu",
+      "email": "chamath428@gmail.com",
       "password": "Password1#",
-      "createdAt": "2026-03-30T19:26:05.980Z"
+      "createdAt": "2026-03-30T21:35:10.788Z"
     }
   ]
 }

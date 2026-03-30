@@ -18,6 +18,6 @@ export const login = async (req: Request, res: Response): Promise<void> => {
   const user = await loginService(loginDto);
   res.status(200).json({
     message: SUCCESS_MESSAGES.LOGIN_SUCCESS,
-    user,
+    ...user,
   });
 };
