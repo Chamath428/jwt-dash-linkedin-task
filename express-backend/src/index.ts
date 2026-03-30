@@ -12,8 +12,8 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
+app.use("/api/v1", routerV1);
 app.use(errorHandler);
-app.use('/api/v1', routerV1);
 
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
