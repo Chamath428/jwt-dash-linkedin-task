@@ -40,7 +40,12 @@ const Login = () => {
   return (
     <div className="login-container">
       <div className="login-card">
+        <div className="title-container">
+          <button className="back-button" onClick={() => navigate("/")}>
+            &larr;
+          </button>
         <h1>Log in to your account</h1>
+        </div>
         <p className="login-subtitle">
           Enter your credentials to access your account
         </p>
@@ -82,7 +87,7 @@ const Login = () => {
         </form>
 
         <p className="register-login">
-          Already have an account? <Link to="/login">Log in</Link>
+          Do not have account? <Link to="/register">Sign up</Link>
         </p>
       </div>
     </div>

@@ -40,7 +40,12 @@ const Register = () => {
   return (
     <div className="register-container">
       <div className="register-card">
-        <h1>Create an account</h1>
+        <div className="title-container">
+          <button className="back-button" onClick={() => navigate("/")}>
+            &larr;
+          </button>
+          <h1>Create an account</h1>
+        </div>
         <p className="register-subtitle">
           Fill in the details below to get started
         </p>
@@ -57,7 +62,7 @@ const Register = () => {
               type="text"
               value={form.firstName}
               onChange={handleChange}
-              placeholder="John"
+              placeholder="Enter your first name"
               required
             />
           </div>
@@ -70,7 +75,7 @@ const Register = () => {
               type="text"
               value={form.lastName}
               onChange={handleChange}
-              placeholder="Doe"
+              placeholder="Enter your last name"
               required
             />
           </div>
