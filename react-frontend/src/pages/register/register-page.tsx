@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { useNavigate, Link } from "react-router-dom";
-import "./register-page.css";
+import { Link, useNavigate } from "react-router-dom";
 import { registerUser } from "../../services/authentication.service";
+import "./register-page.css";
 
 const Register = () => {
   const navigate = useNavigate();

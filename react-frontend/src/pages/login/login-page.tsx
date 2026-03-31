@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { useNavigate, Link } from "react-router-dom";
-import "./login-page.css";
+import { Link, useNavigate } from "react-router-dom";
 import { loginUser } from "../../services/authentication.service";
+import "./login-page.css";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -29,7 +29,7 @@ const Login = () => {
         }
       });
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (err: any) {
       setError(err.response?.data?.message ?? "Something went wrong");
     } finally {
@@ -44,7 +44,7 @@ const Login = () => {
           <button className="back-button" onClick={() => navigate("/")}>
             &larr;
           </button>
-        <h1>Log in to your account</h1>
+          <h1>Log in to your account</h1>
         </div>
         <p className="login-subtitle">
           Enter your credentials to access your account
@@ -81,8 +81,8 @@ const Login = () => {
             />
           </div>
 
-          <button type="submit" className="register-button" disabled={loading}>
-            {loading ? "Creating account..." : "Create account"}
+          <button type="submit" className="login-button" disabled={loading}>
+            {loading ? "Logging in..." : "Log in"}
           </button>
         </form>
 

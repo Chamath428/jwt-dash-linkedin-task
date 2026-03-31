@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import LandingPage from "../pages/landing/landing-page";
-import RegisterPage from "../pages/register/register-page";
-import Login from "../pages/login/login-page";
-import ProtectedRoute from "./ProtectedRouter";
 import DashboardPage from "../pages/dashboard/dashboard-page";
+import LandingPage from "../pages/landing/landing-page";
+import Login from "../pages/login/login-page";
+import RegisterPage from "../pages/register/register-page";
+import ProtectedRoute from "./ProtectedRouter";
 import PublicRoute from "./PublicRoutes";
 
 const AppRouter = () => {

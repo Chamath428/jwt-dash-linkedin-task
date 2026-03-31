@@ -1,8 +1,8 @@
 import type {
-  AuthRegisterResponse,
   AuthLoginResponse,
-  RegisterDto,
+  AuthRegisterResponse,
   LoginDto,
+  RegisterDto,
 } from "../types/authentication.types";
 import api from "../util/api";
 

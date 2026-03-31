@@ -1,6 +1,6 @@
 import type { FC } from "react";
-import "./landing-page.css";
 import { Link } from "react-router-dom";
+import "./landing-page.css";
 
 const LandingPage: FC = () => {
   return (
