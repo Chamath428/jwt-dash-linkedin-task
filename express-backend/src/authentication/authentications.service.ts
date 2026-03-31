@@ -1,11 +1,11 @@
 import { randomUUID } from "crypto";
 import db from "../db";
-import { User } from "../models/user.model";
-import { SignupDto } from "./dto/signup.dto";
-import { AppError, serviceErrorHandler } from "../util/AppError";
-import { LoginDto } from "./dto/login.dto";
 import { signToken } from "../middleware/jwtHandler";
+import { User } from "../models/user.model";
+import { AppError, serviceErrorHandler } from "../util/AppError";
 import { ERROR_MESSAGES } from "../util/errorMessages";
+import { LoginDto } from "./dto/login.dto";
+import { SignupDto } from "./dto/signup.dto";
 
 export const signupService = async (signUpDto: SignupDto) => {
   try {

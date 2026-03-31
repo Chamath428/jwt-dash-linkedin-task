@@ -1,8 +1,8 @@
 import { Router } from "express";
 import { login, signup } from "../authentication/authentication.controller";
-import { validate } from "../middleware/validator";
-import { SignupSchema } from "../authentication/dto/signup.dto";
 import { LoginSchema } from "../authentication/dto/login.dto";
+import { SignupSchema } from "../authentication/dto/signup.dto";
+import { validate } from "../middleware/validator";
 import { asyncHandler } from "../util/asyncHandler";
 
 const authenticationRouter = Router();

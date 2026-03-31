@@ -1,8 +1,8 @@
 import { Request, Response } from "express";
-import { SignupDto } from "./dto/signup.dto";
 import { SUCCESS_MESSAGES } from "../util/successMessages";
 import { loginService, signupService } from "./authentications.service";
 import { LoginDto } from "./dto/login.dto";
+import { SignupDto } from "./dto/signup.dto";
 
 export const signup = async (req: Request, res: Response): Promise<void> => {
   const signUpDto: SignupDto = req.body;
