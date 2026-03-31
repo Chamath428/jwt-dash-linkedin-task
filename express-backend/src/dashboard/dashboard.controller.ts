@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { SUCCESS_MESSAGES } from "../util/success-messages";
+import { SUCCESS_MESSAGES } from "../util/successMessages";
 
 
 export function getDashboardData(_req: Request, res: Response) {

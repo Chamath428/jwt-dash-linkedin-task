@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { SignupDto } from "./dto/signup.dto";
-import { SUCCESS_MESSAGES } from "../util/success-messages";
+import { SUCCESS_MESSAGES } from "../util/successMessages";
 import { loginService, signupService } from "./authentications.service";
 import { LoginDto } from "./dto/login.dto";
 

@@ -1,6 +1,7 @@
 import { Request, Response, NextFunction } from "express";
 import { JwtPayload, verifyToken } from "./jwtHandler";
 import { AppError } from "../util/AppError";
+import { ERROR_MESSAGES } from "../util/errorMessages";
 
 declare global {
   namespace Express {
@@ -18,7 +19,7 @@ export const authGuard = (
   const authHeader = req.headers.authorization;
 
   if (!authHeader?.startsWith("Bearer ")) {
-    throw new AppError("Unauthorized", 401);
+    throw new AppError(ERROR_MESSAGES.UNAUTHORIZED, 401);
   }
 
   const token = authHeader.split(" ")[1];
@@ -27,6 +28,6 @@ export const authGuard = (
     req.user = verifyToken(token);
     next();
   } catch {
-    throw new AppError("Invalid or session token", 401);
+    throw new AppError(ERROR_MESSAGES.INVALID_TOKEN, 401);
   }
 };

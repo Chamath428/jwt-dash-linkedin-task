@@ -1,20 +1,12 @@
 {
   "users": [
     {
-      "id": "cf9a951e-c49f-44ee-aa3e-507760e2ccaf",
-      "firstName": "Chamath Chinthana",
-      "lastName": "Peththawadu",
-      "email": "chamath428@gmail.com",
-      "password": "Password1#",
-      "createdAt": "2026-03-30T21:35:10.788Z"
-    },
-    {
-      "id": "0752da6d-81dd-4987-95da-0166c377d29a",
-      "firstName": "Chamath Chinthana",
-      "lastName": "Peththawadu",
+      "id": "64981602-662b-4e1d-a725-367debe6c362",
+      "firstName": "Chamath",
+      "lastName": "Chinthana",
       "email": "chamathc428@gmail.com",
       "password": "Password1#",
-      "createdAt": "2026-03-30T22:25:57.239Z"
+      "createdAt": "2026-03-31T04:16:36.107Z"
     }
   ]
 }
